@@ -42,15 +42,15 @@
 
 #include <pcl_conversions/pcl_conversions.h>
 
-#if defined(IS_ASSIMP3)
+//#if defined(IS_ASSIMP3)
 #include <assimp/scene.h>
 #include <assimp/Importer.hpp>
 #include <assimp/postprocess.h>
-#else
+/*#else
 #include <assimp/aiScene.h>
 #include <assimp/assimp.hpp>
 #include <assimp/aiPostProcess.h>
-#endif
+#endif*/
 
 void robot_self_filter::SelfMask::freeMemory (void)
 {

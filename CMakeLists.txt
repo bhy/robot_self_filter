@@ -17,6 +17,8 @@ set(ROS_BUILD_TYPE Release)
 
 find_package(Boost REQUIRED COMPONENTS signals)
 
+set(IS_ASSIMP3 true)
+
 find_package(assimp QUIET)
 if ( NOT ASSIMP_FOUND )
   find_package(Assimp QUIET)
